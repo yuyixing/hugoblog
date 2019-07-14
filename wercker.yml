@@ -11,3 +11,4 @@ deploy:
         token: $GIT_TOKEN
         domain: yuyixing.github.io
         basedir: public
+        repo: yuyixing.github.io

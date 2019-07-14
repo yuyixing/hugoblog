@@ -8,6 +8,13 @@ tags:
   - go
 ---
 
+## Install Hugo
+https://github.com/gohugoio/hugo
+
+### theme/hello-friend-ng
+
+### hugo-extended
+
 ## Auto Deployment with Wercker
 
 https://gohugo.io/hosting-and-deployment/deployment-with-wercker/
@@ -22,6 +29,7 @@ build:
     - arjen/hugo-build:
 		theme:            hello-friend-ng		# optional, default: ""
 		flags:            --buildDrafts=true	# optional, default: ""
+		# the two variables above is enough
 		version:          <string> # optional, default: "0.55.6"
 		config:           <string> # optional, default: ""
 		basedir:          <string> # optional, default: ""
@@ -39,5 +47,5 @@ deploy:
         token: $GIT_TOKEN	# GitHub personal access tokens,Configure in Application environment variables
         domain: your.domain
         basedir: public
-        repo: your.github.repo
+        repo: yourgithubaccountname/your.github.repo
 ```

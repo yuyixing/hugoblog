@@ -1,5 +1,5 @@
 ---
-title: "使用Hugo快速搭建静态博客"
+title: "How to use Hugo to build a Fast and Flexible Static Blog"
 date: 2019-07-14T12:49:51+08:00
 draft: true
 toc: false
@@ -9,17 +9,22 @@ tags:
 ---
 
 ## Install Hugo
-https://github.com/gohugoio/hugo
+[github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
+
+
+
+### Get dependencies
 
 ### theme/hello-friend-ng
 
 ### hugo-extended
+exec: "gcc": executable file not found in %PATH%
+Install MinGW and add bin directory of gcc to Environment Variables
 
 ## Auto Deployment with Wercker
-
 https://gohugo.io/hosting-and-deployment/deployment-with-wercker/
 
-You need register wercker account via a VPN probably,If you see the alert 'Please cofirm you are not a robot'.
+Notice:You need register wercker account via a VPN probably,If you see the alert 'Please cofirm you are not a robot'.
 
 Wercker is a CI tool via configure wercker.yml.Such like
 ```yml

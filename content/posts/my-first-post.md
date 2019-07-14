@@ -11,3 +11,5 @@ tags:
 Auto Deployment with Wercker
 
 https://gohugo.io/hosting-and-deployment/deployment-with-wercker/
+
+You need register wercker account via a VPN probably,If you see the alert 'Please cofirm you are not a robot'.

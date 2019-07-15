@@ -10,8 +10,8 @@ theme = "hello-friend-ng"
   dateformNumTime = "2006-01-02 15:04 -0700"
 
   # Metadata mostly used in document's head
-  description = "Homepage and blog by Djordje Atlialp"
-  keywords = "homepage, blog, science, informatics, development, programming"
+  description = "A Blog For Golang And English Study"
+  keywords = "homepage, blog, yuyixing, ielts, development, programming, learning, english"
   images = [""]
 
   # Directory name of your blog content (default is `content/posts`)
@@ -38,21 +38,25 @@ theme = "hello-friend-ng"
 	# You can create a language based menu
     [languages.en.menu]
       [[languages.en.menu.main]]
-        identifier = "about"
-        name = "About"
-        url = "/about"
+        identifier = "about me"
+        name = "About Me"
+        url = "/about me"
       [[languages.en.menu.main]]
-        identifier = "showcase"
-        name = "Posts"
-        url = "/posts"
+        identifier = "english post"
+        name = "English Posts"
+        url = "/english post"
+      [[languages.en.menu.main]]
+        identifier = "golang post"
+        name = "Golang Posts"
+        url = "/golang post"
 
 # And you can even create generic menu
-[menu]
-  [[menu.main]]
-    identifier = "about"
-    name       = "About"
-    url        = "/about"
-  [[menu.main]]
-    identifier = "blog"
-    name       = "Blog"
-    url        = "/posts"
+#[menu]
+#  [[menu.main]]
+#    identifier = "about"
+#    name       = "About"
+#    url        = "/about"
+#  [[menu.main]]
+#    identifier = "blog"
+#    name       = "Blog"
+#    url        = "/posts"

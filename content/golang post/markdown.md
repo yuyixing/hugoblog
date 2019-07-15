@@ -1,5 +1,5 @@
 ---
-title: "Markdown"
+title: "Markdown Grammar"
 date: 2019-07-14T23:13:20+08:00
 draft: true
 toc: false
@@ -7,7 +7,7 @@ images:
 tags:
   - markdown
 ---
-Hugo is basic on [Markdown grammar](https://github.com/younghz/Markdown),here's the README.md below.
+Static Pages in Hugo is basic on [Markdown grammar](https://github.com/younghz/Markdown),here's the README.md below.
 
 ## 主要内容
 > #### Markdown*是什么* ？
@@ -53,27 +53,31 @@ Markdown语法主要分为如下几大部分：
 
 #### 4.1 标题
 两种形式：  
-1）使用`=`和`-`标记一级和二级标题。
+1）使用`=`和`-`标记一级和二级标题。   
+
 > 一级标题   
 > `=========`   
 > 二级标题    
 > `---------`
 
 效果：
+
 > 一级标题   
 > =========   
 > 二级标题
 > ---------  
 
 2）使用`#`，可表示1-6级标题。
+
 > \# 一级标题   
 > \## 二级标题   
 > \### 三级标题   
 > \#### 四级标题   
 > \##### 五级标题   
-> \###### 六级标题    
+> \###### 六级标题   
 
 效果：
+
 > # 一级标题   
 > ## 二级标题   
 > ### 三级标题   
@@ -86,11 +90,14 @@ Markdown语法主要分为如下几大部分：
 
 #### 4.3 区块引用
 在段落的每行或者只在第一行使用符号`>`,还可使用多个嵌套引用，如：
+
 > \> 区块引用  
 > \>> 嵌套引用  
 
 效果：
+
 > 区块引用  
+
 >> 嵌套引用
 
 #### 4.4 代码区块
@@ -113,32 +120,38 @@ void main()
 
 #### 4.5 强调
 在强调内容两侧分别加上`*`或者`_`，如：
+
 > \*斜体\*，\_斜体\_    
 > \*\*粗体\*\*，\_\_粗体\_\_
 
 效果：
+
 > *斜体* ，_斜体_    
 > **粗体**，__粗体__
 
 #### 4.6 列表
 使用`·`、`+`、或`-`标记无序列表，如：
-> \-（+\*） 第一项
-> \-（+\*） 第二项
-> \- （+\*）第三项
 
-**注意**：标记后面最少有一个_空格_或_制表符_。若不在引用区块中，必须和前方段落之间存在空行。
+> \+ 第一项   
+> \+ 第二项   
+> \+ 第三项   
+
+**注意**：标记后面最少有一个*空格* 或*制表符* 。若不在引用区块中，必须和前方段落之间存在空行。
 
 效果：
+
 > + 第一项
 > + 第二项
 > + 第三项
 
 有序列表的标记方式是将上述的符号换成数字,并辅以`.`，如：
-> 1 . 第一项   
+
+> 1 . 第一项    
 > 2 . 第二项    
 > 3 . 第三项    
 
 效果：
+
 > 1. 第一项
 > 2. 第二项
 > 3. 第三项
@@ -149,18 +162,22 @@ void main()
 #### 4.8 链接
 链接可以由两种形式生成：**行内式**和**参考式**。    
 **行内式**：
+
 > \[younghz的Markdown库\]\(https:://github.com/younghz/Markdown "Markdown"\)。
 
 效果：
+
 > [younghz的Markdown库](https:://github.com/younghz/Markdown "Markdown")。
 
 **参考式**：
+
 > \[younghz的Markdown库1\]\[1\]    
 > \[younghz的Markdown库2\]\[2\]    
 > \[1\]:https:://github.com/younghz/Markdown "Markdown"    
 > \[2\]:https:://github.com/younghz/Markdown "Markdown"    
 
 效果：
+
 > [younghz的Markdown库1][1]    
 > [younghz的Markdown库2][2]
 
@@ -175,13 +192,16 @@ void main()
 相当于**反转义**作用。使符号成为普通符号。
 #### 4.11 符号'`'
 起到标记作用。如：
+
 >\`ctrl+a\`
 
 效果：
+
 >`ctrl+a`    
 
 #### 5. *谁* 在用？
 Markdown的使用者：
+
 + GitHub
 + 简书
 + Stack Overflow
@@ -201,8 +221,7 @@ Markdown的使用者：
 
 ****
 **注意**：不同的Markdown解释器或工具对相应语法（扩展语法）的解释效果不尽相同，具体可参见工具的使用说明。
-虽然有人想出面搞一个所谓的标准化的Markdown，[没想到还惹怒了健在的创始人John Gruber]
-(http://blog.codinghorror.com/standard-markdown-is-now-common-markdown/ )。
+虽然有人想出面搞一个所谓的标准化的Markdown，没想到还[惹怒了健在的创始人John Gruber](http://blog.codinghorror.com/standard-markdown-is-now-common-markdown/ )。
 ****
 以上基本是所有traditonal markdown的语法。
 
@@ -214,7 +233,7 @@ Markdown的使用者：
 |代码库                              |链接                                |
 |:------------------------------------:|------------------------------------|
 |MarkDown                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
-|MarkDownCopy                              |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
+|MarkDownCopy                          |[https://github.com/younghz/Markdown](https://github.com/younghz/Markdown "Markdown")|
 
 
 关于其它扩展语法可参见具体工具的使用说明。

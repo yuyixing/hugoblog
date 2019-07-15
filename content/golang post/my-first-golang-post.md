@@ -8,8 +8,9 @@ tags:
   - go
 ---
 
-## Install Hugo
+## Hugo Quick Start
 [github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)
+[Quick Start](https://gohugo.io/getting-started/quick-start/)
 
 
 

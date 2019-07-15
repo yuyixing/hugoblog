@@ -1,13 +1,14 @@
 ---
 title: "How to use Hugo to build a Fast and Flexible Static Blog"
 date: 2019-07-14T12:49:51+08:00
-draft: true
+draft: false
 toc: false
 images:
 tags:
   - go
   - hugo
 ---
+
 
 ## Hugo Quick Start
 [github.com/gohugoio/hugo](https://github.com/gohugoio/hugo)   
@@ -134,9 +135,10 @@ hugo
 ```
 
 ## Auto Deployment with Wercker
-https://gohugo.io/hosting-and-deployment/deployment-with-wercker/
+[Wercker Docs](https://gohugo.io/hosting-and-deployment/deployment-with-wercker/)  
+[Wercker Official Website](https://app.wercker.com/)
 
-Notice:You need register wercker account via a VPN probably,If you see the alert 'Please cofirm you are not a robot'.
+**Notice**:You need register wercker account via a VPN probably,If you see the alert 'Please cofirm you are not a robot'.
 
 Wercker is a CI tool via configure wercker.yml.Such like
 ```yml
@@ -161,8 +163,10 @@ deploy:
     - install-packages:
         packages: git ssh-client
     - lukevivier/gh-pages@0.2.1:
-        token: $GIT_TOKEN	# GitHub personal access tokens,Configure in Application environment variables
+        token: $GIT_TOKEN
         domain: your.domain
         basedir: public
         repo: yourgithubaccountname/your.github.repo
 ```
+The `$GIT_TOKEN` is GitHub personal access tokens,configure in Application environment variables for privacy protection.
+Add new pipeline named `deploy` with `Hook type:Default` after `build`.

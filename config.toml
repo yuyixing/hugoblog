@@ -28,7 +28,7 @@ theme = "hello-friend-ng"
     readOtherPosts = "Read other posts"
 
     [languages.en.params.logo]
-      logoText = "yuyixing's blog"
+      logoText = "hello there"
       logoHomeLink = "/"
     # or
     #
@@ -42,13 +42,13 @@ theme = "hello-friend-ng"
         name = "About Me"
         url = "/about me"
       [[languages.en.menu.main]]
-        identifier = "english post"
+        identifier = "english posts"
         name = "English Posts"
-        url = "/english post"
+        url = "/english posts"
       [[languages.en.menu.main]]
-        identifier = "golang post"
+        identifier = "golang posts"
         name = "Golang Posts"
-        url = "/golang post"
+        url = "/golang posts"
 
 # And you can even create generic menu
 #[menu]

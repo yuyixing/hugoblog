@@ -5,9 +5,11 @@ draft: true
 toc: false
 images:
 tags:
+  - go
+  - hugo
   - markdown
 ---
-Static Pages in Hugo is basic on [Markdown grammar](https://github.com/younghz/Markdown),here's the README.md below.
+Static pages in Hugo is basic on [Markdown grammar](https://github.com/younghz/Markdown),here's the README.md below.
 
 ## 主要内容
 > #### Markdown*是什么* ？
